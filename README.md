@@ -1,3 +1,3 @@
 # rajatcode
-These are the codes for my Assignment-1 in Cyber-Security.
+Assignments folder contain codes from my Cyber Security assignments.
 Thank You!

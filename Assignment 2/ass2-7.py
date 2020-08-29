@@ -1,14 +1,17 @@
 def isprime(i):
     a="Non Prime"
     b="Prime"
+    c=0
     if(i>1):
         if(i==2):
             return b
-        for j in range(2,i):
+        for j in range(2,i+1):
             if(i%j==0):
-                return a
-            else:
-                return b
+                c+=1
+        if c==1:
+             return b
+        else:
+             return a
 def LoT(n):
     l=[]
     for i in range(2,n+1):
